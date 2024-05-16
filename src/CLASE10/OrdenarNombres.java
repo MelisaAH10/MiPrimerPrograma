@@ -1,5 +1,6 @@
 package CLASE10;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class OrdenarNombres {
@@ -15,7 +16,9 @@ public class OrdenarNombres {
         scanner.close();
 
         // Ordenar los nombres en orden alfabético
-        for (int i = 0; i < 4; i++) {
+        Arrays.sort(nombres);
+
+        /*for (int i = 0; i < 4; i++) {
             for (int j = i + 1; j < 4; j++) {
                 if (nombres[i].compareTo(nombres[j]) > 0) {
                     String temp = nombres[i];
@@ -23,7 +26,7 @@ public class OrdenarNombres {
                     nombres[j] = temp;
                 }
             }
-        }
+        }*/
 
         // Imprimir los nombres ordenados
         System.out.println("Los nombres ordenados alfabéticamente son:");

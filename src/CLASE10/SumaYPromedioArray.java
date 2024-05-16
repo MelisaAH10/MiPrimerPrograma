@@ -15,6 +15,23 @@ public class SumaYPromedioArray {
             numeros[i] = scanner.nextInt();
             suma += numeros[i];
         }
+
+        /*System.out.println("Ingrese el elemento 1:");
+        numeros[0] = scanner.nextInt();
+        suma += numeros[0];
+
+        System.out.println("Ingrese el elemento 2:");
+        numeros[1] = scanner.nextInt();
+        suma += numeros[1];
+
+        System.out.println("Ingrese el elemento 3:");
+        numeros[2] = scanner.nextInt();
+        suma += numeros[2];
+
+        System.out.println("Ingrese el elemento 4:");
+        numeros[3] = scanner.nextInt();
+        suma += numeros[3];*/
+
         scanner.close();
 
         // Calcular el promedio

@@ -8,7 +8,7 @@ public class ExtensionArray {
         int[] numeros = {5, 10, 15};
 
         // Crear un nuevo array con dos elementos adicionales
-        int[] numerosExtendidos = new int[5];
+        int[] numerosExtendidos = new int[numeros.length + 2];
 
         // Copiar los elementos del array original al nuevo array
         numerosExtendidos[0] = numeros[0];

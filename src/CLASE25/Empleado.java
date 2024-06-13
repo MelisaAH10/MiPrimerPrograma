@@ -6,6 +6,17 @@ public class Empleado {
     private double salario;
     private String departamento;
 
+    public Empleado(String nombre, int edad, double salario, String departamento) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.salario = salario;
+        this.departamento = departamento;
+    }
+
+    public Empleado() {
+
+    }
+
     public String getNombre() {
         return nombre;
     }
